@@ -8,3 +8,7 @@ var door = {
 	frameInner: draw.rect(260, 480).fill('#fff').translate(width/2 - 130, height - 480),
 	door: draw.polygon('0,0 252,0 252,476 0,476').translate(width/2 - 126, height - 476)
 }
+
+door.door.dblclick(function() {
+	this.animate(2500, '>').plot([[200,50], [252,0], [252,476], [200,426]])
+})
