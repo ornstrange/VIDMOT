@@ -75,7 +75,7 @@ var main = function() {
     gl.useProgram(program); // segir sig sjálft
     gl.bindVertexArray(vao); // undirbúið bufferinn fyrir flutning
 
-    gl.uniform2fv(rotationLocation, rotation);
+    gl.uniform2fv(rotationLocation, rotation); // smella snúningum í shaderinn
 
     // teiknar þrihyrninginn
     var primitiveType = gl.TRIANGLES;
