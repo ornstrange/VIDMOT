@@ -32,13 +32,13 @@ const SphereMaterial =
 const PointLight = new THREE.PointLight(0xFFFFFF);
 PointLight.position.x = 10;
 PointLight.position.y = 50;
-PointLight.position.z = -300;
+PointLight.position.z = 0;
 scene.add(PointLight);
 
 // SPHERE OBJECT
-const RADIUS    = 50;
-const SEGMENTS  = 16;
-const RINGS     = 16;
+const RADIUS    = 70;
+const SEGMENTS  = 64;
+const RINGS     = 64;
 
 const Sphere = new THREE.Mesh(
   new THREE.SphereGeometry(
@@ -53,9 +53,11 @@ scene.add(Sphere);
 // RENDER
 function render() {
   renderer.render(scene, camera);
+  /*
   PointLight.position.z = lightZ;
   if (lightZ >= 0) { lightZ = -300 }
   else { lightZ += 1 }
+  */
   requestAnimationFrame(render);
 }
 requestAnimationFrame(render);

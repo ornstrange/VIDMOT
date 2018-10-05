@@ -9,6 +9,7 @@
   "author": "Örn Óli Strange",
   "license": "ISC",
   "dependencies": {
+    "live-server": "^1.2.0",
     "three": "^0.97.0"
   }
 }
