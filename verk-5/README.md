@@ -1,4 +1,4 @@
 # Verkefni 5
 
 ## Skýrsla
-Við reyndum að gera ehv, það virkaði ekkert, þá prufuðum við annað og það var bara verra.
+Áætlunin okkar var að tengja trackpad úr fartölvu við raspberry pi til að stjórna ljósi. Þetta fór alveg rosalega illa, þegar við vorum komnir með trackpad'ið þá var fyrsta hindrunin að eina tengingin var ribbon cable, sem við enduðum á að lóða við hvern og einn punkt á honum víra til að tengjast í raspberry pi'ið, þetta hafðist á endanum en þá kom það erfiða verkefni að reyna lesa eitthvað frá því. Við vissum ekkert hvaða pinnar voru hvað á trackpad'inu og engar upplýsingar fundust um það á netinu, við komumst að því að svona trackpad notar Ps/2 protocol, sem hjálpaði okkur aðeins en samt vissum við ekkert hvaða pinnar voru hvað, við enduðum á að prufa okkur áfram en ekkert gekk og við eflaust eyðilögðum trackpad'ið með þessu fikti. Þetta var rosalega erfið reynsla fyrir okkur og niðurlægjandi niðustöður. Ég er samt handviss að ef við fengjum annað trackpad þá myndum við láta þetta virka!
